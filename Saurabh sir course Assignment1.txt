@@ -1,0 +1,128 @@
+Basics of INPUT AND OUTPUT Assignment-1
+
+
+Q 12) OUTPUT iS :ineuron7
+Q 11) code:
+
+#include<stdio.h>
+int main(){
+    int H,M;
+    printf("Enter THE HOUR AND MINUTES: \n");
+    scanf("\"%d : %d",&H,&M);
+    printf("\n");
+    printf("\"%d Hour and %d Minute\"",H,M);
+    return 0; 
+}
+
+INPUT: Enter THE HOUR AND MINUTES: 
+"11:25"
+OUTPUT: "11 Hour and 25 Minute"
+
+Q 10) code:
+#include<stdio.h>
+int main(){
+    int D,M,Y;
+    printf("\"DD/MM/YYYY\"\n");
+    scanf("%d%d%d",&D,&M,&Y);
+    printf("\n");
+    printf("Day-%d , Month-%d , Year-%d",D,M,Y);
+    return 0; 
+}
+
+//mithun@ineuron.ai
+
+input:"DD/MM/YYYY"
+27 11 2022
+
+output:Day-27 , Month-11 , Year-2022
+
+Q 09) code:
+
+#include<stdio.h>
+int main(){
+    printf("\\\\");
+    return 0; 
+}
+
+output:\\
+
+Q 08) code:
+#include<stdio.h>
+int main(){
+    printf("\\n");
+    return 0; 
+}
+
+output:\n
+
+Q 07) code:
+#include<stdio.h>
+int main(){
+    printf("%%d");
+    return 0; 
+}
+
+output:%d
+
+Q 06) code:
+#include<stdio.h>
+int main(){
+    char uname[40];
+    printf("Enter the user name:\n");
+    //The scanf() function reads the sequence of characters until it encounters whitespace (space, newline, tab, etc.).
+    scanf("%s",&uname);
+    printf("Hello,%s",uname);
+    return 0; 
+}
+
+input: Enter the user name:Amit Kumar
+
+output:Hello, Amit
+
+Q 05) code:
+#include<stdio.h>
+int main(){
+    int x= printf("ineuron");
+    printf("%d",x);
+    return 0; 
+}
+
+output:ineuron7
+
+Q 04) code:
+#include<stdio.h>
+int main(){
+    float A,R;
+    printf("Enter the radius of circle:\n");
+    scanf("%f",&R);
+    A=3.14*R*R;
+    printf("Area of circle is %f having the radius %f",A,R);
+    return 0; 
+}
+
+input:Enter the radius of circle:
+4
+output:
+Area of circle is 50.240002 having the radius 4.000000
+
+Q 03) code:
+#include<stdio.h>
+int main(){
+    printf("\"MySirG\"");
+} 
+output:"MySirG"
+
+Q 02) code:
+#include<stdio.h>
+int main(){
+    printf("Hello\nStudent");
+}
+output:Hello  
+Student
+
+Q 01) code:
+#include<stdio.h>
+int main(){
+    printf("Hello");
+}
+output:Hello
